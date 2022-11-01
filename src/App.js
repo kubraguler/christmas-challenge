@@ -1,8 +1,9 @@
-import Snowflake from './components/Snowflake/Snowflake'
-import ChristmasLights from './components/ChristmasLights/ChristmasLights'
-import SantaReindeer from './components/SantaReindeer/SantaReindeer'
+import Snowflake from "./components/Snowflake/Snowflake";
+import ChristmasLights from "./components/ChristmasLights/ChristmasLights";
+import Moon from "./components/Moon/Moon";
+import SantaReindeer from "./components/SantaReindeer/SantaReindeer";
 
-import './App.scss'
+import "./App.scss";
 
 function App() {
 	return (
@@ -11,12 +12,13 @@ function App() {
 			<ul className='lightrope'>
 				<ChristmasLights />
 			</ul>
+			<Moon />
 			<SantaReindeer />
 		</div>
-	)
+	);
 }
 
-export default App
+export default App;
 
 /**
 Santas reindeer names
@@ -28,5 +30,5 @@ Santas reindeer names
 -Cupid
 -Donner
 -Blitzen
-- Rudolph
+-Rudolph
 */
