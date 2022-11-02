@@ -1,7 +1,7 @@
 import Snowflake from "./components/Snowflake/Snowflake";
 import ChristmasLights from "./components/ChristmasLights/ChristmasLights";
 import Moon from "./components/Moon/Moon";
-import SantaReindeer from "./components/SantaReindeer/SantaReindeer";
+import Reindeer from "./components/Reindeer/Reindeer";
 
 import "./App.scss";
 
@@ -13,7 +13,7 @@ function App() {
 				<ChristmasLights />
 			</ul>
 			<Moon />
-			<SantaReindeer />
+			<Reindeer />
 		</div>
 	);
 }
