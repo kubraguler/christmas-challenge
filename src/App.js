@@ -1,7 +1,7 @@
 import Snowflake from "./components/Snowflake/Snowflake";
 import ChristmasLights from "./components/ChristmasLights/ChristmasLights";
 import Moon from "./components/Moon/Moon";
-import Reindeer from "./components/Reindeer/Reindeer";
+import CalculateDate from "./components/Days/Days";
 
 import "./App.scss";
 
@@ -13,22 +13,9 @@ function App() {
 				<ChristmasLights />
 			</ul>
 			<Moon />
-			<Reindeer />
+			<CalculateDate />
 		</div>
 	);
 }
 
 export default App;
-
-/**
-Santas reindeer names
--Dasher
--Dancer
--Prancer
--Vixen
--Comet
--Cupid
--Donner
--Blitzen
--Rudolph
-*/
