@@ -1,3 +1,5 @@
-# Welcome to My Christmas Challenge
+# Christmas Challenge
 
-This project shows how many days left until my holiday 🫥
+This project was develop just for fun and shows how many days left until my holiday.
+
+🤖 🤡 👾 👻 👽 ☠️
